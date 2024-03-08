@@ -5,6 +5,11 @@ This project aims to develop and implement algorithms and techniques to detect f
 > [!IMPORTANT]
 > If you wish to store the graphs locally on the machine (Neo4j Desktop) instead of cloud versions (Aura), please make sure that you download and run the project locally on the machine as well, and do NOT use platforms such as Google Colab. The reason is that the local database runs by default on the bold URI `bolt://localhost:7687`, which is NOT accessible remotely.
 
+> [!TIP]
+> Click on the button below to preview the project report.
+> 
+> [![Read the Paper](https://img.shields.io/badge/Report-PDF-red)](https://github.com/tabaraei/transaction-graph-neo4j/blob/master/latex/Fraud_Detection_Transaction_Graph.pdf)
+
 ## Neo4j Installation
 The objective of this project is to first create 3 different databases of sizes 50Mb, 100Mb, and 200Mb, respectively. The following steps are taken sequentially to achieve this:
 - Download and install the [Neo4j Desktop](https://neo4j.com/download/).
