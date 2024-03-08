@@ -1,0 +1,21 @@
+\vspace*{-0.7cm}
+    \underline{Ali Tabaraei} \\
+    University of Milan, March 2024 \\
+\vspace*{-0.7cm}
+
+\section*{Abstract}
+
+This project \cite{github} focuses on fraud detection in transactional data using graph database technologies. It represents a series of essential components aimed at simulating transaction data, designing conceptual and logical models, generating transaction graphs, and conducting experiments to detect fraudulent activities.
+
+Using the \textit{transaction data simulator} obtained from \cite{leborgne2022fraud} and detailed in Sec \ref{transaction-data-simulator}, the project employs Python scripts to simulate transactional data of varying sizes, offering flexibility in dataset generation. Through this simulator, diverse scenarios can be created, facilitating the evaluation of fraud detection algorithms and techniques.
+
+In Sec \ref{conceptual-model}, the \textit{conceptual model} outlines the design of a UML class diagram to represent the entities and relationships within the transactional data. This model serves as the foundation for understanding the structure of the data and its interactions.
+
+Sec \ref{logical-model} delves into the \textit{logical model}, discussing design choices concerning the selection of graph data structure for this domain. This model demonstrates how transactional data is organized and stored in the graph database, resulting in optimized performance and query efficiency.
+
+\textit{Transaction graph Generation}, detailed in Sec \ref{transaction-graph-generation}, involves the creation of scaled simulated datasets and their insertion into the graph database using Cypher, the query language for Neo4j. This process is a preliminary step for the subsequent experiments and analysis.
+
+Finally, the \textit{experiments} conducted within Sec \ref{experiments} perform various Cypher queries and try to detect fraudulent transactions leveraging the data stored in graph databases. Furthermore, their execution times will be reported accordingly.
+
+\textbf{Keywords:} Fraud Detection, Transactions Graph, Neo4j, Cypher
+\newpage

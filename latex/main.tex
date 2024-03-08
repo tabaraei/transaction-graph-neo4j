@@ -1,0 +1,21 @@
+\documentclass[10pt]{article}
+\input{structure/packages}
+\input{structure/style}
+
+
+\begin{document}
+
+    % Pages without numbering
+    \pagestyle{empty}
+    \input{content/title}
+    \input{content/abstract}
+    \input{content/tableofcontents}
+
+    % Pages with numbering
+    \pagestyle{plain}
+    \include{content/notebook}
+
+    % Add biblio
+    \printbibliography[heading=bibintoc, title={References}]
+
+\end{document}
